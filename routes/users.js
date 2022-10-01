@@ -1,3 +1,9 @@
+/*
+File:       user.ejs
+Name:       Ziyan Liu
+Student Id: 301133339
+Date:       2022-10-01
+*/
 var express = require('express');
 var router = express.Router();
 

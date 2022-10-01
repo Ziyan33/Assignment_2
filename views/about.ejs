@@ -1,0 +1,63 @@
+<!--
+File:       about.ejs
+Name:       Ziyan Liu
+Student Id: 301133339
+Date:       2022-10-01
+-->
+
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+
+<!--Main Content-->
+
+<main class="container">
+<div class="jumbotron">
+  <h1 class="display-4"></h1>
+ </div>
+</main>
+ 
+ <!-- About Section-->
+        <section class="page-section bg-primary text-black mb-0" id="about">
+            <div class="container">
+            
+                <!-- About Section Heading-->
+                <!--legal name, image and a paragraph about who you are.-->
+
+               <!--<img src="/public/Assets/images/photo.jpg">--> 
+                <h2 class="page-section-heading text-center text-uppercase text-black">About</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-dark">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-4 ms-auto">
+                        <p class="lead">Name: Ziyan Liu (301133339)<br>
+                            Program: Software engineering technology<br>
+                            Course: Web Application Development<br>
+                        </p>
+                    
+                    </div>
+                    <div class="col-lg-4 me-auto">
+                        <p class="lead">Hi, My name is Ziyan Liu, 
+                            I'm currently studying  software engineering technology at centennial.
+                            This is Assignment 1 Express Portfolio Site
+                        </p></div>
+                </div>
+                <!-- About Section Button-->
+                <!--PDF version of your Resume-->
+                <div class="text-center mt-4">
+                    <a class="btn btn-xl btn-outline-dark" href="/public/Assets/Resume.pdf">
+                        <i class="fas fa-download me-2"></i>
+                        Resume
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+<%- include ('partials/bottom_nav.ejs') %>
+
+<%- include ('partials/footer.ejs') %>   
