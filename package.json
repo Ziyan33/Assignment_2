@@ -26,7 +26,7 @@
     "kill-port": "^2.0.1"
   },
   "description": "assignment 1 for COMP229",
-  "main": "index.js",
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ziyan33/Assignment_1.git"
